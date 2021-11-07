@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01633D"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:weightSum="1"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="რეგისტრაცია"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="70dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:weightSum="1"
+            android:layout_height="100dp">
+
+            <EditText
+                android:id="@+id/nameInput"
+                android:layout_width="wrap_content"
+                android:text="სახელი"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="#B5B0B0"
+                android:textSize="18sp"
+                android:gravity="start"
+                android:layout_weight="1"
+                android:layout_height="40dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:weightSum="1"
+            android:layout_height="100dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:text="გვარი"
+                android:id="@+id/lastNameInput"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="#B5B0B0"
+                android:textSize="18sp"
+                android:gravity="start"
+                android:layout_weight="1"
+                android:layout_height="40dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:weightSum="1"
+            android:layout_height="100dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:text="ტელეფონის ნომერი"
+                android:id="@+id/numberInput"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="#B5B0B0"
+                android:textSize="18sp"
+                android:gravity="start"
+                android:layout_weight="1"
+                android:layout_height="40dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:weightSum="1"
+            android:layout_height="100dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:text="პირადი ნომერი"
+                android:id="@+id/personalNumberInput"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="#B5B0B0"
+                android:textSize="18sp"
+                android:gravity="start"
+                android:layout_weight="1"
+                android:layout_height="40dp"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="470dp"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="200dp"
+            android:id="@+id/registrationButton"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#00C7C7"
+            android:text="რეგისტრაცია"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+<!--    <TableLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:weightSum="1"-->
+<!--            android:layout_marginTop="230dp"-->
+<!--            android:layout_height="70dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="რეგისტრაცია"-->
+<!--                android:textSize="25sp"-->
+<!--                android:gravity="center"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:layout_weight="1"/>-->
+
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:weightSum="1">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="სახელი"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginStart="25dp"-->
+<!--                android:textSize="22sp"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:gravity="start"-->
+<!--                android:layout_weight="1"-->
+<!--                android:textStyle="bold"/>-->
+
+
+<!--        </TableRow>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
